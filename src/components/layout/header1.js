@@ -53,10 +53,10 @@ function Header1() {
               {
                 !auth.user? (<>
                 <Nav.Item className="me-3">
-                <Nav.Link href="/login" style={{ color: "orange" }}>Login</Nav.Link>
+                <Nav.Link href="/login" style={{ color: "black" }}>Login</Nav.Link>
               </Nav.Item>
                 <Nav.Item className="me-3">
-                <Nav.Link href="/signup" style={{ color: "orange" }}>Sign up</Nav.Link>
+                <Nav.Link href="/signup" style={{ color: "black" }}>Sign up</Nav.Link>
               </Nav.Item>
               </>): (<>
   
